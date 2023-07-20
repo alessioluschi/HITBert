@@ -66,7 +66,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
 )
 ```
 ```
-cp = torch.load("HITBert_1.0.pt")
+cp = torch.load("HitBert.pt")
 model.load_state_dict(cp['model_state_dict'])
 ```
 ```
