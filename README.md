@@ -89,4 +89,4 @@ explainer(text, padding="max_length", truncation=True, max_length=512, add_speci
 # Disclaimer
 When using this model, the provided Python code, or the dataset for any other projects, please cite the original work:
 
-Luschi, A., Nesi, P., Iadanza, E. "Evidence-based Clinical Engineering: Health Information Technology Adverse Events Identification and Classification with Natural Language Processing", 2023
+Luschi, A., Nesi, P., Iadanza, E. "Evidence-based Clinical Engineering: Health Information Technology Adverse Events Identification and Classification with Natural Language Processing", Heliyon, Vol. 9(11), 2023 [DOI: 10.1016/j.heliyon.2023.e21723]
