@@ -18,7 +18,7 @@ epochs = 7
 
 learning_rate = 2e-5
 
-# Description
+## Description
 The model can be fine-tuned and tested from scratch by using the provided Python code for Jupyter Notebook (HITBert_kfold.ipynb). 
 A ready-to-be-used version of the model is also available. This version has been fine-tuned, validated, and tested on the provided dataset. The testing metrics of the provided model are:
 
@@ -35,7 +35,7 @@ MCC: 98.93%
 The validation has been performed with the 10-fold validation technique. 
 ROC and Confusion Matrix can be found in the repository.
 
-# Implementation
+## Implementation
 The following Python code can be used to load the saved weights for the provided model and use it to classify new AE reports:
 ```
 pip install transformers
@@ -86,7 +86,20 @@ explainer(text, padding="max_length", truncation=True, max_length=512, add_speci
 #  {'label': 'LABEL_0', 'score': 9.521505126031116e-05}]]
 ```
 
-# Disclaimer
+## Disclaimer
 When using this model, the provided Python code, or the dataset for any other projects, please cite the original work:
 
-Luschi, A., Nesi, P., Iadanza, E. "Evidence-based Clinical Engineering: Health Information Technology Adverse Events Identification and Classification with Natural Language Processing", Heliyon, Vol. 9(11), 2023 [DOI: 10.1016/j.heliyon.2023.e21723]
+Luschi, A., Nesi, P., Iadanza, E. "Evidence-based Clinical Engineering: Health Information Technology Adverse Events Identification and Classification with Natural Language Processing", Heliyon, Vol. 9(11), 2023. <a id="1" target="_blank" href="https://doi.org/10.1016/j.heliyon.2023.e21723">10.1016/j.heliyon.2023.e21723</a>
+
+```
+@article{10.1016/j.heliyon.2023.e21723,
+title = {Evidence-based clinical engineering: Health information technology adverse events identification and classification with natural language processing},
+journal = {Heliyon},
+volume = {9},
+number = {11},
+pages = {e21723},
+year = {2023},
+author = {Alessio Luschi and Paolo Nesi and Ernesto Iadanza},
+doi = {10.1016/j.heliyon.2023.e21723}
+}
+```
